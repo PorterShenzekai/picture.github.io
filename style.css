@@ -1,0 +1,39 @@
+body {  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    height: 100vh;  
+    margin: 0;  
+    font-family: Arial, sans-serif;  
+  }  
+    
+  .image-container {  
+    text-align: center;  
+  }  
+    
+  .image-container img {  
+    max-width: 100%;  
+    height: auto;  
+    display: block;  
+    margin-bottom: 10px;  
+  }  
+    
+  .image-container p {  
+    font-size: 16px;  
+    margin: 0;  
+  }  
+    
+  .image-container button {  
+    padding: 10px 20px;  
+    font-size: 16px;  
+    cursor: pointer;  
+    border: none;  
+    background-color: #4CAF50;  
+    color: white;  
+    border-radius: 5px;  
+    margin-top: 10px;  
+  }  
+    
+  .image-container button:hover {  
+    background-color: #45a049;  
+  }
